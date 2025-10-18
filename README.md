@@ -148,8 +148,9 @@ predictions.csv containing columns:
 **sample_id	price**
 12345	149.89
 12346	57.43
+---
 
-👥 **Team Details**
+**##Team Details**
 Team Name: Fine‑Tuned Mod
 Members:
 1) Mohammad Musaib Mohi Uddin
