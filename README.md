@@ -4,6 +4,18 @@
 
 In e-commerce, determining the optimal price point for products is crucial for marketplace success and customer satisfaction. Your challenge is to develop an ML solution that analyzes product details and predict the price of the product. The relationship between product attributes and pricing is complex - with factors like brand, specifications, product quantity directly influence pricing. Your task is to build a model that can analyze these product details holistically and suggest an optimal price.
 
+## Team Details 
+Team Name: Fine‑Tuned Mod
+Members:
+1) Mohammad Musaib Mohi Uddin
+2) Fahad
+3) Sagar Bidhuri
+4) Md Junaid Alam
+## 🏁 **Results**
+Metric	Score
+SMAPE	56.08%
+**Leaderboard Rank	#771 / 83,000+**
+
 ### Data Description:
 
 The dataset consists of the following columns:
@@ -148,16 +160,3 @@ predictions.csv containing columns:
 **sample_id	price**
 12345	149.89
 12346	57.43
----
-
-**##Team Details**
-Team Name: Fine‑Tuned Mod
-Members:
-1) Mohammad Musaib Mohi Uddin
-2) Fahad
-3) Sagar Bidhuri
-4) Md Junaid Alam
-🏁 **Results**
-Metric	Score
-SMAPE	56.08%
-**Leaderboard Rank	#771 / 83,000+**
