@@ -104,3 +104,59 @@ Participants are **STRICTLY NOT ALLOWED** to obtain prices from the internet, ex
 - Explore feature engineering techniques for text and image data
 - Consider ensemble methods combining different model types
 - Pay attention to outliers and data preprocessing
+
+
+---
+
+## ⚙️ Features
+✅ Multimodal learning (Text + Numerical)  
+✅ Robust feature engineering from product catalog  
+✅ Ensemble prediction to improve generalization  
+✅ GPU‑supported training in Google Colab  
+✅ Fully interactive upload‑and‑predict interface  
+
+---
+
+## 🧪 Model Components
+| Component | Description |
+|------------|--------------|
+| **Text Encoder** | `all-MiniLM-L6-v2` Sentence Transformer for semantic embeddings |
+| **Numerical Features** | Extracted metrics like pack size, weight, organic/premium indicators, health scores, etc. |
+| **Neural Network** | Custom PyTorch model to fuse text & numeric representations |
+| **Gradient Boosting Regressor** | Scikit-learn `GradientBoostingRegressor` for tabular refinement |
+| **Ensemble** | Weighted average (60% NN, 40% GB) |
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/Smart-Product-Pricing-AI.git
+cd Smart-Product-Pricing-AI
+
+**## Install dependencies**
+pip install -r requirements.txt
+
+**##Run in Colab or locally**
+python src/sol.py
+
+**## Example Output**
+When you upload your test dataset, the system automatically generates:
+predictions.csv containing columns:
+
+**sample_id	price**
+12345	149.89
+12346	57.43
+
+👥 **Team Details**
+Team Name: Fine‑Tuned Mod
+Members:
+1) Mohammad Musaib Mohi Uddin
+2) Fahad
+3) Sagar Bidhuri
+4) Md Junaid Alam
+🏁 **Results**
+Metric	Score
+SMAPE	56.08%
+**Leaderboard Rank	#771 / 83,000+**
